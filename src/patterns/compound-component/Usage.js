@@ -4,8 +4,9 @@ import { Counter } from "./Counter";
 function Usage() {
   const handleChangeCounter = (count) => {
     console.log("count", count);
+    
   };
-
+  console.log("Counter",Counter); //Counter
   return (
     <Counter onChange={handleChangeCounter}>
       <Counter.Decrement icon="minus" />
